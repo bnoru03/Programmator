@@ -153,7 +153,7 @@
 }
 .btnPlan{
     float: right;
-    color:#fff9e3;
+    color:#fcfbf8;
     background-color: #04030e;
     text-transform: uppercase;
     width: 22vw;
@@ -366,6 +366,7 @@
 #pedro23 {
     text-decoration: none;
     color: #04030e;
+    cursor: default!important;
 }
 
 .fa-instagram {
@@ -385,7 +386,7 @@
 }
 
 .redess {
-    margin-left: 15vh;
+    margin-left: 12vh;
     font-size: 30px;
 }
 
@@ -461,6 +462,11 @@
         margin-right: 0!important;
         box-shadow: none!important;
         border:none!important;
+    }
+
+    .contacto2{
+        margin-left: 0px!important;
+        margin-top: 2vw!important;
     }
 
     .text1 {
@@ -587,8 +593,6 @@
         margin: 0;
         display: flex;
         justify-content: center;
-        
-        
     }
     
     .cajacaja {
@@ -599,6 +603,7 @@
     .predes {
         display: flex;
         justify-content: center;
+     
     }
     
     .megaredes {
@@ -639,6 +644,14 @@
         opacity: 1!important;
         color: #fff!important;
     }
+
+    .carousel-control-prev-icon{
+        margin-left: 30px;
+    }
+    .carousel-control-next-icon{
+        margin-right: 30px;
+    }
+
 
     .carousel-indicators button {
         margin-top:8px!important; 
