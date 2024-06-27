@@ -60,6 +60,10 @@
     box-shadow: 0 0 1px #ff5e00, 0 0 2px #ff5e00, 0 0 3px #ff5e00, 0 0 5px #FF9900, 0 0 8px #ff5e00, 0 0 10px #FF9900, 0 0 12px #ff5e00, 0 0 14px #FF9900;
 }
 
+.logo{
+    margin-top: 15px;
+}
+
 .logoMd{
     font-size: 22px;
     text-transform: uppercase;
@@ -307,7 +311,7 @@
     color:#fff;
   }
   .acordion2 .accordion-body{
-    background-color:#ff9900;
+    background-color:#db9119;
     color: #fff;
     font-weight: bold;
   }
@@ -685,6 +689,13 @@
 
         }
     }
+
+    @media  (max-width:1160px){
+        .logo{
+            display: none!important;
+        }
+    }
+
 
     @media  (min-height:915px){
         .frontBlack2 {
