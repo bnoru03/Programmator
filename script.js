@@ -20,7 +20,6 @@ let container = document.querySelector('.container-fluid')
 
 window.addEventListener('scroll', function() {
     let windowMove = window.scrollY;
-    console.log(windowMove);
 
     if (principalUbication >= windowMove) {
         header.style.top = '0px';
